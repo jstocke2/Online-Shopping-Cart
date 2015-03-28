@@ -17,7 +17,7 @@ function processOrder()
 		$toothBrush -> setQuantity($_POST["toothBrush"]);
 		$drone -> setQuantity($_POST["drone"]);
 		$christmasTree -> setQuantity($_POST["christmasTree"]);
-		$crack -> setQuantity($_POST["crack"]);
+		$coffee -> setQuantity($_POST["coffee"]);
 		$yacht -> setQuantity($_POST["yacht"]);
 		$corvette -> setQuantity($_POST["corvette"]);
 		*/
@@ -60,7 +60,7 @@ elseif( $_POST['submit'] == " Finalize " )
   include("head.inc");
   //require("createclasses.php");
   //require("checkout.php");
-  echo "Our vile henchman are acquiring your items for you even as we speak";
+  echo "Very gooooood we will send you your items via drone shortly.  Mark the LZ for your items.";
 
   require_once("sessionfns.php");
       session_end();
