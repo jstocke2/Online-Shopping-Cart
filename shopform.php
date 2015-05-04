@@ -19,8 +19,8 @@
 <input id="christmasTree" type="text" name="christmasTree" value = "1" />
 <label for="christmasTree">Christmas Tree</label>
 <br><br>
-<input id="crack" type="text" name="crack" value = "1" />
-<label for="crack">Crack</label>
+<input id="coffee" type="text" name="coffee" value = "1" />
+<label for="coffee">coffee</label>
 <br><br>
 <input id="yacht" type="text" name="yacht" value = "1" />
 <label for="yacht">Yacht</label>
@@ -49,7 +49,7 @@
 	
 	
 	
-		$_SESSION["crack"]= $_POST["crack"];
+		$_SESSION["coffee"]= $_POST["coffee"];
 	
 	
 	
@@ -90,11 +90,11 @@ $christmasTree -> setQuantity($_SESSION["christmasTree"]);
 $christmasTree -> setPrice("200.00");
 }
 
-if ($_SESSION["crack"]){
-$crack = new LineItem;
-$crack-> setName("Crack");
-$crack -> setQuantity($_SESSION["crack"]);
-$crack -> setPrice("20.00");
+if ($_SESSION["coffee"]){
+$coffee = new LineItem;
+$coffee-> setName("coffee");
+$coffee -> setQuantity($_SESSION["coffee"]);
+$coffee -> setPrice("20.00");
 }
 
 if ($_SESSION["yacht"]){
@@ -142,10 +142,10 @@ $corvette -> setPrice("5000.00");
     <td><?php print $christmasTree ->getTotal(); ?></td>
   </tr>
   <tr>
-    <td><?php print $crack ->getName(); ?></td>
-    <td><?php print $crack ->getQuantity(); ?></td> 
-	<td><?php print $crack ->getPrice(); ?></td>
-    <td><?php print $crack ->getTotal(); ?></td>
+    <td><?php print $coffee ->getName(); ?></td>
+    <td><?php print $coffee ->getQuantity(); ?></td> 
+	<td><?php print $coffee ->getPrice(); ?></td>
+    <td><?php print $coffee ->getTotal(); ?></td>
   </tr>
   <tr>
     <td><?php print $yacht ->getName(); ?></td>
@@ -162,7 +162,7 @@ $corvette -> setPrice("5000.00");
 </table>
 
 <?php
-$total = ($toothBrush -> getTotal() + $drone -> getTotal() + $christmasTree -> getTotal() + $crack -> getTotal()+ $yacht -> getTotal() + $corvette -> getTotal());
+$total = ($toothBrush -> getTotal() + $drone -> getTotal() + $christmasTree -> getTotal() + $coffee -> getTotal()+ $yacht -> getTotal() + $corvette -> getTotal());
 echo "Grand Total: $ $total ";
 $grandTotal = $total;
 // have to test for session id change inbetween
@@ -184,9 +184,9 @@ $grandTotal = $total;
 	{
 		$_SESSION["christmasTree"] = $_POST["christmasTree"];
 	}
-	if ($_POST["crack"] != 1)
+	if ($_POST["coffee"] != 1)
 	{
-		$_SESSION["crack"]= $_POST["crack"];
+		$_SESSION["coffee"]= $_POST["coffee"];
 	}
 	if ($_POST["corvette"] != 1)
 	{
