@@ -1,0 +1,71 @@
+body 
+{ margin:0; background-color: #def; 
+  margin: 50px; 
+  line-height: 140%  
+}
+
+div#centerpage
+{  width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   display: table;
+   border: 2px solid darkblue;
+}
+
+section#main
+{  display: table-row;  
+   width: 100%;
+}
+
+nav.leftnavbar
+{  display: inline;
+	position: absolute;
+    top: auto;
+	align: left;
+	top: 0px;
+   background-color: darkblue;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-align: right;
+   padding-right: 0em;
+   padding-left: 0em;
+   white-space: nowrap;
+}
+
+nav.leftnavbar > span.self
+{  display: inline;
+   color: orange;
+   border: thin solid transparent;
+   margin-top: 0em;
+   padding-right: 0em;
+}
+
+nav.leftnavbar > a:link:last-child,
+nav.leftnavbar > a:visited:last-child
+{  margin-bottom: 1.5em;
+}
+
+nav.leftnavbar > a:link,
+nav.leftnavbar > a:visited
+{  display: inline;
+   text-decoration: none;  
+   color: white;
+   border: thin solid transparent;
+   margin-top: 0em;
+   padding-right: 0em;
+}
+
+nav.leftnavbar > a:hover
+{
+   border: thin solid white;
+}
+
+section#main > article#content
+{  display: inline;
+   width: 70%;
+   background-color: white;
+   padding: 0em;
+}
+
+.error { color: #a00; }

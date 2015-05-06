@@ -9,7 +9,7 @@ if ( empty($_POST['submit']) )  require("regform.php");
 elseif( check_reg_data() && record_pass() )
 { ?>
 <h2>Login Registration Confirmation</h2>
-<p>Thanks. we your login account has been created.</p>
+<p>Very good now that we have your email we will bombard you with spam</p>
 <?php } else { ?>
 <h2>Login Registration Failed</h2>
 <p class="error">Sorry we failed to register your login account.</p>

@@ -1,4 +1,4 @@
-<h2>New Member Account</h2>
+<h2>Yes, yes join our Cult</h2>
 <form method="post" action="#">
 <div class="entry">
 <label for="uid">Userid:</label><span class="field"><input name="uid" id="uid" required="" size="25" autofocus=""/> (5 or more charcters)</span>

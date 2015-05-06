@@ -86,7 +86,7 @@ $christmasTree -> setPrice("200.00");
 
 
 $coffee = new LineItem;
-$coffee-> setName("coffee");
+$coffee-> setName("Coffee");
 $coffee -> setQuantity($_POST["coffee"]);
 $coffee -> setPrice("20.00");
 
@@ -130,7 +130,7 @@ $christmasTree -> setPrice("200.00");
 
 if ($_SESSION["coffee"]){
 $coffee = new LineItem;
-$coffee-> setName("coffee");
+$coffee-> setName("Coffee");
 $coffee -> setQuantity($_SESSION["coffee"]);
 $coffee -> setPrice("20.00");
 }
