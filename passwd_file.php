@@ -14,8 +14,4 @@
 // dev@gmail.com:devdev:$2a$09$dynamicwebdesign$$$$$.cz.Az8sTC99pl0JVE.fusHV9LAdr6CW
 // fnafa@kent.edu:aaaaa:$2a$09$dynamicwebdesign$$$$$.kPzgpVTdnkXJSQIiqIRF./S2hqawuSe
 // farrell@cs.kent.edu:paul0:$2a$09$dynamicwebdesign$$$$$.pNtBOzKrYFeLHA.KMJgaGSuZ4CYMA3y
-// a@kent.edu:abcde:$2a$09$dynamicwebdesign$$$$$.J/8Yuh/3Yapq.NBYKWthzlGPE8cnT52
 // jake.stocker@yahoo.com:jstocke2:$2a$09$dynamicwebdesign$$$$$.8YMY6noZaBKvf9PdgJa0NWiLhQ2NoGS
-
-// jake.stocker@yahoo.com:asdfg:$2a$09$dynamicwebdesign$$$$$.tRY4ty4PuVCpRC8s1IDrwM.ZH81HAH6
-// rojvan85@gmail.com:SHSH1:$2a$09$dynamicwebdesign$$$$$.J/8Yuh/3Yapq.NBYKWthzlGPE8cnT52
